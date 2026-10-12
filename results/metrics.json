@@ -1,0 +1,52 @@
+{
+  "rows_raw": 11055,
+  "rows_unique": 5849,
+  "best_model": "Gradient Boosting",
+  "metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.9179,
+      "precision": 0.9247,
+      "recall": 0.9156,
+      "f1": 0.9201,
+      "cv_f1_mean": 0.9229,
+      "cv_f1_std": 0.0025
+    },
+    "Random Forest": {
+      "accuracy": 0.9419,
+      "precision": 0.9573,
+      "recall": 0.9288,
+      "f1": 0.9429,
+      "cv_f1_mean": 0.949,
+      "cv_f1_std": 0.0048
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.9444,
+      "precision": 0.956,
+      "recall": 0.9354,
+      "f1": 0.9456,
+      "cv_f1_mean": 0.9458,
+      "cv_f1_std": 0.0054
+    }
+  },
+  "top_features": {
+    "SSLfinal_State": 0.3164,
+    "URL_of_Anchor": 0.2358,
+    "having_Sub_Domain": 0.0587,
+    "Prefix_Suffix": 0.0535,
+    "web_traffic": 0.0525,
+    "Links_in_tags": 0.0437,
+    "SFH": 0.033,
+    "Request_URL": 0.0204
+  },
+  "robustness_recall_by_k": {
+    "0": 0.9288079470198676,
+    "1": 0.8013245033112583,
+    "2": 0.12086092715231789,
+    "3": 0.016556291390728478,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0
+  }
+}
